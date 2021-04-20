@@ -10,14 +10,14 @@ pipeline {
         stage('Build') {
             // Pasos de la fase
             steps {
-                echo 'Building...'
+                echo 'Building desde Git...'
             }
         }
         // Fase individual (contenedor logico)
         stage('Test') {
             // Pasos de la fase
             steps {
-                echo 'Testing...'
+                echo 'Testing desde GIt...'
                 echo 'Aceptación...'
                 echo 'Integración...'
             }
